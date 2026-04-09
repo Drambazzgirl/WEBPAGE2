@@ -1,0 +1,85 @@
+.cta {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 60px 40px;
+  gap: 60px;
+  background: #fff;
+  border-top: 1px solid #eee;
+}
+
+.cta h2 {
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.cta p {
+  font-size: 14px;
+  color: #555;
+  line-height: 1.8;
+}
+
+.cta h3 {
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+.cta .form-group {
+  margin-bottom: 12px;
+}
+
+.cta .form-group label {
+  display: block;
+  font-size: 12px;
+  font-weight: 500;
+  margin-bottom: 4px;
+}
+
+.cta .form-group input {
+  width: 100%;
+  padding: 9px 12px;
+  border: 1px solid #ddd;
+  font-size: 13px;
+  outline: none;
+  font-family: inherit;
+}
+
+.cta .signup-btn {
+  background: #222;
+  color: #fff;
+  border: none;
+  padding: 10px 28px;
+  font-size: 13px;
+  cursor: pointer;
+  font-family: inherit;
+  margin-top: 6px;
+}
+
+.cta .signup-btn:hover {
+  background: #444;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 40px;
+  border-top: 1px solid #eee;
+  background: #fff;
+}
+
+.footer-logo img {
+  height: 36px;
+}
+
+.footer-icons {
+  display: flex;
+  gap: 14px;
+}
+
+.footer-icons img {
+  width: 22px;
+  height: 22px;
+  cursor: pointer;
+}

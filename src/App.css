@@ -1,0 +1,52 @@
+body{
+  font-family: Arial;
+}
+
+.header{
+  background: black;
+  color: white;
+  padding: 10px;
+}
+
+.hero{
+  display: flex;
+  padding: 20px;
+}
+
+.hero img{
+  width: 300px;
+}
+
+.hero .right{
+  margin-left: 20px;
+}
+
+input{
+  display: block;
+  margin: 10px 0;
+  padding: 8px;
+}
+
+button{
+  padding: 20px;
+  background: #eee;
+}
+
+.product{
+  display: flex;
+  gap: 10px;
+  padding: 20px;
+}
+.box{
+  background: black;
+  color: white;
+  padding: 20px;
+}
+
+.footer{
+  background: black;
+  color: white;
+  padding: 10px;
+
+}
+

@@ -1,0 +1,28 @@
+.header {
+  display: flex;
+  flex-direction: row;          /* ← இது முக்கியம்! */
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 40px;
+  border-bottom: 1px solid #eee;
+  background: #fff;
+  width: 100%;
+}
+
+.header-logo {
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.header-icons {
+  display: flex;
+  flex-direction: row;          /* ← இதுவும் முக்கியம்! */
+  gap: 14px;
+  align-items: center;
+}
+
+.header-icons img {
+  width: 22px;
+  height: 22px;
+  cursor: pointer;
+}
